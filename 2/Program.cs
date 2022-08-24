@@ -9,11 +9,11 @@ int max = numberA;
 if (numberB > max)
 {
     max = numberB;
-    Console.WriteLine("max number = " + numberB);
+    Console.WriteLine("max number = " + max);
 }
 
 else 
 {
      max = numberA;
-    Console.WriteLine("max number = " + numberA);
+    Console.WriteLine("max number = " + max);
 }
